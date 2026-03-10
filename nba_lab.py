@@ -255,6 +255,3 @@ print("Variance Explained:", variance_explained)
 # Calculating the silhouette score for the 4-cluster model
 sil_score = silhouette_score(X_scaled, kmeans.labels_)
 print("Silhouette Score:", sil_score)
-
-# %%
-merged_data['Ty Jerome']
